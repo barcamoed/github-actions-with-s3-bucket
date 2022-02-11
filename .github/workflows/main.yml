@@ -1,4 +1,4 @@
-name: Upload Website
+name: React Website Build Upload
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x] 
-        
+
       steps:
         uses: actions/checkout@v1
         run: npm install
